@@ -1,0 +1,36 @@
+doctype html
+html
+  head
+    style
+      include ../static/registration.css
+  body
+    nav#navBar 
+        ul 
+          li #[a(href="/") Calculator]
+          li #[a(href="/factorial") Factorial] 
+          li #[a(href="/fibonacci") Fibonacci] 
+          li #[a(href="/temperature") Temperature] 
+          li #[a(href="/currency") Currency] 
+          li #[a(href="/square") Square Root] 
+          li #[a(href="/registration") Registration]
+
+          
+    div.container
+     h1 Registration 
+     form(action="/registration" method="POST" , class="myForm")
+        
+          input(type="text" name="name"  , class="myInput" , placeholder="Enter Your Name") 
+        
+          input(type="text" name="scholer" , class="myInput" ,  placeholder="Enter Your scholer No") 
+        
+          input(type="number" name="phone" , class="myInput" , placeholder="Enter Your phone number") 
+        
+          input(type="text" name="email" , class="myInput" , placeholder="Enter Your email") 
+         
+          button(class="btn")
+             | Submit  
+        
+              
+               
+    script
+       include ../static/registration.js

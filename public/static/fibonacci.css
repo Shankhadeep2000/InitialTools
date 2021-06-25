@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    background-color: blanchedalmond;
+   
+}
+
+#navBar ul{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#navBar li{
+    margin-left: 23px;
+    list-style: none;
+}
+#navBar li a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+#navBar li :hover{
+    text-decoration: underline;
+    color: red;
+   }
+
+   .container{
+    text-align: center;
+    margin-top: 90px;
+}
+table{
+    margin: auto;
+    margin-top: 13px;
+}
+button{
+    padding: 12px;
+    text-align: center;
+    margin: 2px;
+    padding-left: 36px;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+}
+input{
+    margin-top: 32px;
+    text-align: center;
+    /* border: black; */
+    border-radius: 20px;
+    width: 27%;
+    height: 38px;
+}

@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    background-color: blanchedalmond;
+   
+}
+
+#navBar ul{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#navBar li{
+    margin-left: 23px;
+    list-style: none;
+}
+#navBar li a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+#navBar li :hover{
+    text-decoration: underline;
+    color: red;
+   }
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    width: 38%;
+    height: 38px;
+    margin-top: 12px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.btn{
+    width: 13%;
+    height: 31px;
+    margin-top: 12px;
+    border-radius: 10px;
+    color: white;
+    background: black;
+}

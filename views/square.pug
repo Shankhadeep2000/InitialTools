@@ -1,0 +1,57 @@
+doctype html
+html
+  head
+    style
+      include ../static/square.css
+  body
+    nav#navBar 
+        ul 
+          li #[a(href="/") Calculator]
+          li #[a(href="/factorial") Factorial] 
+          li #[a(href="/fibonacci") Fibonacci] 
+          li #[a(href="/temperature") Temperature] 
+          li #[a(href="/currency") Currency] 
+          li #[a(href="/square") Square Root] 
+          li #[a(href="/registration") Registration]
+          
+          
+    div.container
+     h1 Square Root   
+     input#screen(type="text")
+     
+     
+    
+    table 
+          tr  
+            td
+             button 1  
+            td
+             button 2
+            td
+             button 3 
+            td
+             button 4 
+          tr  
+            td
+             button 5  
+            td
+             button 6
+            td
+             button 7 
+            td
+             button 8 
+          tr  
+            td
+             button 9  
+            td
+             button 0
+            
+            td 
+             button C  
+             button = 
+              
+        
+              
+               
+    script
+       include ../static/square.js
