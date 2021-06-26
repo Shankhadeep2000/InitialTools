@@ -1,7 +1,8 @@
 # InitialTools
+You can View this Page By a single click(https://initial-tools.netlify.app)
 It is a web development project. With initial tools like calculator , factorial calculator ,  Fibonacci calculator , Currency converter , Square  , Temperature converter and a Registration Page for student.
 
-The external libraries and the technology and languages:
+## The external libraries and the technology and languages:
 1. node js 
 
 2. Express
